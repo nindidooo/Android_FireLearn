@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "460785615153",
+    "firebase_url": "https://firelearn-122c1.firebaseio.com",
+    "project_id": "firelearn-122c1",
+    "storage_bucket": "firelearn-122c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460785615153:android:85a2bbc6fefe398e",
+        "android_client_info": {
+          "package_name": "com.example.android.firelearn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460785615153-49ltitbabkc5rjbbg0cko86sguug9ve0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.firelearn",
+            "certificate_hash": "37ec7b4803c6375e3a29f9181bca412ebee7c254"
+          }
+        },
+        {
+          "client_id": "460785615153-9boap4b0bronvghbbdspip2ucktvufdo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.firelearn",
+            "certificate_hash": "8d9c37e42fb5785fc5f1e3acf1c0cf062257905d"
+          }
+        },
+        {
+          "client_id": "460785615153-32d223s59ruuhc1efmgknl10ecj7u6b0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0WklnnCD9DpRgHHCZhWLV3lHAiKVyUAo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460785615153-32d223s59ruuhc1efmgknl10ecj7u6b0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
