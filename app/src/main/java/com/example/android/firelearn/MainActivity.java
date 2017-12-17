@@ -251,41 +251,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-//    private void uploadAudio() {
-//
-////        mProgress.setMessage("Uploading Audio ...");
-//        mProgress.show();
-//        StorageReference filepath = mStorage.child(mAudioFileName); // give the name of what the file should be called
-//
-//
-//        filepath.getMetadata().addOnSuccessListener(new OnSuccessListener<StorageMetadata>() {
-//            @Override
-//            public void onSuccess(StorageMetadata storageMetadata) {
-//                // storageMetadata now contains the metadata of input audio file
-////                mRecordLabel.setText(storageMetadata.getMd5Hash());
-//                Md5Hash = storageMetadata.getMd5Hash();
-//            }
-//        });
-//
-////        StorageReference filepath = mStorage.child("Audio").child("new_audio.aac");
-//        // create a uri file form filename string
-//
-//        Uri uri = Uri.fromFile(new File(mFilePath)); // get full local device file path
-//
-//        // THIS PART AUTO-GENERATES
-//        filepath.putFile(uri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
-//            @Override
-//            public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
-//                mProgress.dismiss();
-////                mRecordLabel.setText(Md5Hash + ".mid");
-//                mRecordLabel.setText(mAudioFileName);
-//
-//                mDownloadBtn.setEnabled(true);
-//
-//            }
-//        });
-//    }
-
     private void downloadMidi() {
         mDownloadProgress.setMessage("Downloading MIDI ...");
         mDownloadProgress.show();
