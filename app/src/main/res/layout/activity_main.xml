@@ -32,6 +32,27 @@
             android:textSize="26dp"
             />
 
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundedbutton"
+            android:text="Download midi"
+            android:id="@+id/DownloadMidiBtn"
+            android:textSize="15dp"
+            />
+
+        <TextView
+            android:id="@+id/DownloadLabel"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="Tap here to download MIDI"
+            android:textAlignment="center"
+            android:textSize="26dp"
+            />
+
+
+
     </LinearLayout>
 
 </RelativeLayout>
